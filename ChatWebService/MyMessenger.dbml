@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MyMessenger" Class="MyMessengerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-IKO3LOH;Initial Catalog=MyMessenger;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="MyMessengerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Chat" Member="Chats">
+    <Type Name="Chat">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="SendTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Sender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Receiver" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="User_Chat" Member="User" ThisKey="Sender" OtherKey="Username" Type="User" IsForeignKey="true" />
+      <Association Name="User_Chat1" Member="User1" ThisKey="Receiver" OtherKey="Username" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Avatar" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="User_Chat" Member="Chats" ThisKey="Username" OtherKey="Sender" Type="Chat" />
+      <Association Name="User_Chat1" Member="Chats1" ThisKey="Username" OtherKey="Receiver" Type="Chat" />
+    </Type>
+  </Table>
+</Database>

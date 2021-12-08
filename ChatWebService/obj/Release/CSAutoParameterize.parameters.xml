@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyMessengerConnectionString-Web.config Connection String" description="MyMessengerConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-IKO3LOH;Initial Catalog=MyMessenger;Persist Security Info=True;User ID=sa;Password=123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Network\\MyMessenger\\ChatWebService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyMessengerConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

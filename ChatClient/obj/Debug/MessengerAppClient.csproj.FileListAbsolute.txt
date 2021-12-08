@@ -1,0 +1,16 @@
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\MessengerAppClient.exe.config
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\MessengerAppClient.exe
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\MessengerAppClient.pdb
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\LollipopUI.dll
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\MaterialSkin.dll
+E:\Network\MyMessenger\MessengerAppClient\bin\Debug\LollipopUI.pdb
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.csproj.AssemblyReference.cache
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.frmMain.resources
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.frmSend.resources
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.Properties.Resources.resources
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.UserControls.ucMain.resources
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.UserControls.ucLogin.resources
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.csproj.GenerateResource.cache
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.csproj.CoreCompileInputs.cache
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.exe
+E:\Network\MyMessenger\MessengerAppClient\obj\Debug\MessengerAppClient.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MyMessenger">
+  <DataContextMoniker Name="/MyMessengerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a38e18b4-1df9-4494-8177-0a58feb4db2a" absoluteBounds="3.5, 0.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/MyMessengerDataContext/Chat" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a05bae52-698f-4947-a367-d23c7f421813" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b6baad81-2d17-4c07-b20f-2c5007a47da8" absoluteBounds="0.75, 1, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/MyMessengerDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="017ee002-8b68-4ebe-9ff6-6d3bc4ca9954" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.78929768880208); (3.5 : 1.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MyMessengerDataContext/User/User_Chat" />
+      <nodes>
+        <classShapeMoniker Id="b6baad81-2d17-4c07-b20f-2c5007a47da8" />
+        <classShapeMoniker Id="a38e18b4-1df9-4494-8177-0a58feb4db2a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.33214884440104); (3.5 : 1.33214884440104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MyMessengerDataContext/User/User_Chat1" />
+      <nodes>
+        <classShapeMoniker Id="b6baad81-2d17-4c07-b20f-2c5007a47da8" />
+        <classShapeMoniker Id="a38e18b4-1df9-4494-8177-0a58feb4db2a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
